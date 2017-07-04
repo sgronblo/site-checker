@@ -1,0 +1,20 @@
+{
+  "name": "ts-curses-site-checker",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "checkfiles": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@types/blessed": "^0.1.5",
+    "@types/cheerio": "^0.22.1",
+    "@types/node": "^8.0.7",
+    "blessed": "^0.1.81",
+    "cheerio": "^1.0.0-rc.2",
+    "ts-node": "^3.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.1"
+  }
+}
